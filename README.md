@@ -20,6 +20,4 @@ environment.
 
 ![](media/da4176eb1dec8fc97834722364d5629e.png)
 
-**Further Info**
-
 Happy Coding
