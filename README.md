@@ -7,12 +7,9 @@ parse sensitive multiple email fields’ information to Json. Thereafter encrypt
 and sent as base64 code to a HTTPS REST Server using SSL. The REST Service uses
 an API key verification process.
 
-I required a lightweight method for parsing Json. In my previous REST blogs all
-data was laboriously parsed using multiple Json libraries, so I stumbled upon
-another way that could lighten up the size of my Android APP with processed
-code. REST has REST.JSON which is nice and lightweight and offers a function
-“**ObjecttoJsonString**” conversion method. This library uses the not so light
-System.Json library and the REST.JsonReflect library.
+To find out more, check out my blog on this which offers further in-depth
+explanation on how to use the code.
+Bayesean Blog for more info:  <https://bayeseanblog.com/blog/delphi-object-directly-to-a-json-string-in-a-rest-client/27>
 
 Check out the gif below which demonstrates the sending of an email to a client
 via the REST Server. After receiving the REST post call. Note that this is
@@ -25,9 +22,4 @@ environment.
 
 **Further Info**
 
-To find out more, check out my blog on this which offers further in-depth
-explanation on how to use the code.
-
-[Bayeseanblog](https://www.bayeseanblog.com/) (www.bayeseanblog.com)
-
-Happy Reading
+Happy Coding
